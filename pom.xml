@@ -16,14 +16,13 @@
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>15</java.version>
-		<spring-cloud.version>2020.0.0-RC1</spring-cloud.version>
+		<java.version>17</java.version>
+		<spring-cloud.version>2021.0.7</spring-cloud.version>
 	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
@@ -32,7 +31,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
